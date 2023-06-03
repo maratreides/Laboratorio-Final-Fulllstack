@@ -5,7 +5,7 @@
     $apellido2 = $_POST["APELLIDO2"];
     $email = $_POST["EMAIL"];
     $login = $_POST["LOGIN"];
-    $userpassword = $_POST["PASSWORD"];
+    $userpassword = $_POST["PASSWORD"]; //para evitar repetir $password, usado con otros fines
 
     // Validación adicional en PHP
     if (empty($nombre) || empty($apellido1) || empty($apellido2) || empty($email) || empty($login) || empty($userpassword)) {
