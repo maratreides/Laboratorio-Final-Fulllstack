@@ -48,7 +48,6 @@
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
     
-    $conn->close();
 
     $sql = "SELECT * FROM registros";
     $result = $conn->query($sql);
